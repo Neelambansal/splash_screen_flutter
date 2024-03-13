@@ -1,16 +1,34 @@
-# splash_screen_flutter
+# Flutter Native Splash Screen
 
-A new Flutter project.
+This is a sample app for building native splash screen in flutter.
 
-## Getting Started
+# Usage
 
-This project is a starting point for a Flutter application.
+First, add flutter_native_splash as a dependency in your pubspec.yaml file.
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+  dependencies:
+  flutter_native_splash: ^2.3.13
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+In pubspec.yaml file below dependencies add the following to update the splash icon and background color of splash screen: 
+```bash
+  flutter_native_splash:
+  android: true
+  ios: true
+  web: false
+  color: "#FFFF00"
+  image: "assets/images/splash_icon.png"
+```
+Run the following command in the terminal: 
+```bash
+flutter clean
+flutter pub get
+flutter pub run flutter_native_splash:create
+```
+## Color Reference
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Example Color | ![#FFFF00](https://via.placeholder.com/10/0a192f?text=+) #FFFF00|
+
