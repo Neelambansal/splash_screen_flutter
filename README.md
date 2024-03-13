@@ -28,7 +28,7 @@ flutter pub run flutter_native_splash:create
 ```
 ## Screenshots
 
-![App Screenshot]([https://via.placeholder.com/468x300?text=App+Screenshot+Here](https://github.com/Neelambansal/splash_screen_flutter/blob/master/assets/images/splash.png))
+![App Screenshot]((https://github.com/Neelambansal/splash_screen_flutter/blob/master/assets/images/splash.png))
 ![App Screenshot]([https://via.placeholder.com/468x300?text=App+Screenshot+Here](https://github.com/Neelambansal/splash_screen_flutter/blob/master/assets/images/home_screen.png))
 
 
